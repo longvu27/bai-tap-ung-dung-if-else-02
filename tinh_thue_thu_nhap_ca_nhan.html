@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let x = +prompt('Thu nhập của bạn (VNĐ)');
+  let a = x - x*0.05;
+  let b = x - x*0.1;
+  let c = x - x*0.15;
+  let d = x - x*0.2;
+  let e = x - x*0.25;
+  let f = x - x*0.3;
+  let g = x - x*0.35;
+
+  if (x<5000000) {
+    alert ('lương của ban là' + a + 'VNĐ');
+  }
+  if (x>=5000000 && x<10000000) {
+    alert ('lương của ban là' + b + 'VNĐ');
+  }
+  if (x>=10000000 && x<18000000) {
+    alert ('lương của ban là' + c + 'VNĐ');
+  }
+  if (x>=18000000 && x<32000000) {
+    alert ('lương của ban là' + d + 'VNĐ');
+  }
+  if (x>=32000000 && x<52000000) {
+    alert ('lương của ban là' + e + 'VNĐ');
+  }
+  if (x>=52000000 && x<80000000) {
+      alert ('lương của ban là' + f + 'VNĐ');
+  }
+  if (x>80000000) {
+      alert ('lương của bạn là' + g + 'Vnđ');
+  }
+</script>
+</body>
+</html>
